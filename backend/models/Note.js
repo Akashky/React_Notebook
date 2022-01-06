@@ -22,5 +22,5 @@ const NotesSchema = new Schema({
         default: Date.now
     },
   });
-
-  module.exports = mongoose.model('user', NotesSchema);
+  //Before Notes i have entered here user that's why i have to deal with the erros
+  module.exports = mongoose.model('notes', NotesSchema);
